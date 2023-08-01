@@ -16,7 +16,7 @@ public  class AuditLog {
     private String uniqueIdentifier;
     private String requestEndPoint;
     private String requestType;
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String responsePayload;
     private String userName;
     private String time;
